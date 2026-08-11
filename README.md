@@ -80,7 +80,7 @@ Curio is arranged for Vercel’s zero-configuration Express support:
 
 Push the project to GitHub, GitLab, or Bitbucket, then choose **Add New → Project** in Vercel and import it.
 
-Keep the project root at the repository root. No framework override, output-directory override, or custom build command is needed.
+Keep the project root at the repository root. The checked-in vercel.json pins the build command and public/ output directory, so repository configuration overrides stale dashboard values.
 
 ### 2. Add durable session storage
 
